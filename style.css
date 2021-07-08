@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.container{
+    background-color: black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+canvas{
+    width: 512px;
+    height: 512px;
+    border: 1px solid gray;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.fas{
+    font-size: 35px;
+    transition: 0.5ms;
+    color: white;
+    cursor: pointer;
+}
+
+.theme{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.colortext{
+    color: white;
+    margin-top: 15px;
+}:hover{
+    color: gray;
+}
